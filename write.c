@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 struct person{
-    char *name;
+    char name[10];
     int num;
     int age;
     float score;
