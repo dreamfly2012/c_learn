@@ -1,8 +1,8 @@
 a.out:
-	gcc freopen.c -o a.out
+	gcc freopen.c -o build/freopen
 
 run:
-	./a.out
+	./build/freopen
 
 clean:
-	rm *.out
+	rm ./build/freopen
